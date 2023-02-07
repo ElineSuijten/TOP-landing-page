@@ -9,6 +9,8 @@ body {
 .header {
   background-color: #1F2937;
   padding: 45px;
+  padding-right: 110px;
+  padding-left: 110px;
   display: flex;
   justify-content: space-between;
   height: 40px;
@@ -32,10 +34,14 @@ body {
 .hero {
   background-color: #1F2937;
   display: flex;
-  padding: 45px;
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-bottom: 50px;
+  padding-top: 30px;
   justify-content: space-between;
   height: 250px;
   flex: 1;
+  gap: 50px;
 }
 
 .herotext {
@@ -54,10 +60,12 @@ body {
   margin-bottom: 18px;
 }
 
-img {
-  width: 30%;
-  display: flex;
+.img {
   flex-shrink: 0;
+}
+
+img {
+  width: 10%;
 }
 
 button {
