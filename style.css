@@ -38,10 +38,8 @@ body {
   padding-right: 110px;
   padding-bottom: 50px;
   padding-top: 30px;
-  justify-content: space-between;
-  height: 250px;
-  flex: 1;
   gap: 50px;
+  flex: 1;
 }
 
 .herotext {
@@ -60,13 +58,10 @@ body {
   margin-bottom: 18px;
 }
 
-.img {
-  flex-shrink: 0;
+.heroimg img {
+  width: 500px;
 }
 
-img {
-  width: 10%;
-}
 
 button {
   background-color: #3882F6;
@@ -77,13 +72,33 @@ button {
   padding: 7px;
 }
 
-.container {
+.titleinfo {
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 800;
+
+}
+.container1 {
   display: flex;
-  flex-direction: column;
+  padding-left: 110px;
+  padding-right: 110px;
   width: 100%;
   height: 750px;
+  gap: 52px;
+  justify-content: center;
 }
-  
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .sections {
   display: flex;
   flex: 1;
