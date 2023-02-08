@@ -85,18 +85,31 @@ button {
 }
 .container1 {
   display: flex;
-  padding-left: 110px;
-  padding-right: 110px;
   width: 100%;
   height: 750px;
   gap: 52px;
   justify-content: center;
+  flex: 1;
 }
 
 .info {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.container1 img {
+  border: 5px solid #3882F6;
+  width: 200px;
+  height: 200px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.container1 .text{
+  color: black;
+  width: 200px;
+  padding-bottom: 40px;
 }
 
 .sections {
