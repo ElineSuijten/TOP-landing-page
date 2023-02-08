@@ -134,10 +134,39 @@ button {
   font-size: 15px;
 }
 
+.modal {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 50px;
+}
+
 .calltoaction {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   background-color: #3882F6;
+  width: 900px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.callmessage {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup{
+  background: #3882F6;
+  border-radius: 5px white;
+  border-color: white;
+  color: white;
+  padding: 5px;
+  width: 80px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+
 }
 
 .footer {
@@ -147,7 +176,8 @@ button {
   margin-top: auto;
   align-items: center;
   justify-content: center;
-}
+
+
   
 a {
   color: #eee;
